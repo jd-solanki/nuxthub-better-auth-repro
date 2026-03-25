@@ -12,7 +12,7 @@
   "dependencies": {
     "@electric-sql/pglite": "^0.4.1",
     "@nuxthub/core": "https://pkg.pr.new/@nuxthub/core@868",
-    "@onmax/nuxt-better-auth": "0.0.2-alpha.31",
+    "@onmax/nuxt-better-auth": "github:nuxt-modules/better-auth#pull/295/head",
     "better-auth": "^1.5.6",
     "drizzle-kit": "^0.31.10",
     "drizzle-orm": "^0.45.1",

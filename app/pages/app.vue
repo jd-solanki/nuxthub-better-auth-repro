@@ -1,3 +1,11 @@
+<script lang="ts" setup>
+const { signOut } = useUserSession()
+</script>
+
+
 <template>
-    <p>private app page</p>
+    <div>
+        <p>private app page</p>
+        <button @click="async () => await signOut()">logout</button>
+    </div>
 </template>

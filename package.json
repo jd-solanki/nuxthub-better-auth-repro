@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.4.1",
-    "@nuxthub/core": "https://pkg.pr.new/@nuxthub/core@868",
-    "@onmax/nuxt-better-auth": "github:nuxt-modules/better-auth#5ea1fddb031106666b7aea8f8976b1b78c8e9b7f",
+    "@nuxthub/core": "https://pkg.pr.new/@nuxthub/core@895",
+    "@onmax/nuxt-better-auth": "https://pkg.pr.new/@onmax/nuxt-better-auth@295",
     "better-auth": "^1.5.6",
     "drizzle-kit": "^0.31.10",
     "drizzle-orm": "^0.45.1",

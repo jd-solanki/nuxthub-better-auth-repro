@@ -9,6 +9,20 @@ export default defineNuxtConfig({
       casing: 'snake_case',
     },
   },
+  nitro: {
+    preset: 'cloudflare_module',
+    cloudflare: {
+      deployConfig: true,
+      wrangler: {
+        observability: {
+          logs: {
+            enabled: true,
+            invocation_logs: true,
+          },
+        },
+      },
+    },
+  },
   $production: {
     hub: {
       db: {

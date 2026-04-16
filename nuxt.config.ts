@@ -16,6 +16,7 @@ export default defineNuxtConfig({
         casing: 'snake_case',
         connection: {
           hyperdriveId: '53ea7174566e477584f3daf4aaca6e36', // replace with your Hyperdrive ID
+          url: process.env.DATABASE_URL, // Temp fix until PR https://github.com/nuxt-hub/core/pull/868 is merged
         },
       },
     },

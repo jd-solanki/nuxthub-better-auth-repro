@@ -46,8 +46,9 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
-    '/app/**': { auth: { only: 'user' }, ssr: false },
-    '/login': { auth: { only: 'guest' }, ssr: false },
-    '/register': { auth: { only: 'guest' }, ssr: false },
+    '/': { prerender: true },
+    '/app/**': { auth: { only: 'user' } },
+    '/login': { auth: { only: 'guest' } },
+    '/register': { auth: { only: 'guest' } },
   },
 })

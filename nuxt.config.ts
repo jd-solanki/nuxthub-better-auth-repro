@@ -10,6 +10,9 @@ export default defineNuxtConfig({
     },
   },
   nitro: {
+    imports: {
+      dirs: ['server/utils/**']
+    },
     preset: 'cloudflare_module',
     cloudflare: {
       deployConfig: true,

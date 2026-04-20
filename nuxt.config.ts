@@ -43,7 +43,7 @@ export default defineNuxtConfig({
   auth: {
     redirects: {
       login: '/login',
-      guest: '/',
+      guest: '/app',
       authenticated: '/app',
       logout: '/login',
     },

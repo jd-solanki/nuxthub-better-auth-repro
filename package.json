@@ -13,7 +13,7 @@
     "@electric-sql/pglite": "^0.4.4",
     "@noble/hashes": "^1.8.0",
     "@nuxthub/core": "https://pkg.pr.new/@nuxthub/core@77505ad",
-    "@onmax/nuxt-better-auth": "https://pkg.pr.new/nuxt-modules/better-auth/@onmax/nuxt-better-auth@9a4ad00",
+    "@onmax/nuxt-better-auth": "https://pkg.pr.new/nuxt-modules/better-auth/@onmax/nuxt-better-auth@08436be",
     "better-auth": "^1.6.4",
     "drizzle-kit": "^0.31.10",
     "drizzle-orm": "^0.45.1",

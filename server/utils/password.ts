@@ -1,5 +1,6 @@
 import { pbkdf2 } from '@noble/hashes/pbkdf2'
 import { sha256 } from '@noble/hashes/sha2'
+import { dummyFunc } from '~~/layers/mylayer/server/services/myUtil'
 
 const VERSION = 'pbkdf2-sha256-v1'
 const ITERATIONS = 10_000
@@ -59,6 +60,7 @@ export async function hashPassword(password: string) {
 }
 
 export async function verifyPassword(data: { password: string, hash: string }) {
+  dummyFunc()
   const [version, iterationsValue, saltValue, hashValue] = data.hash.split(':')
 
   if (version !== VERSION || !iterationsValue || !saltValue || !hashValue)

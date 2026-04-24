@@ -1,6 +1,6 @@
 import { schema } from '@nuxthub/db'
 import { defineServerAuth } from '@onmax/nuxt-better-auth/config'
-import { hashPassword, verifyPassword } from './utils/password'
+import { hashPassword, verifyPassword } from '~~/server/utils/password'
 
 export default defineServerAuth(({ db }) => ({
   emailAndPassword: {

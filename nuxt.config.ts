@@ -9,6 +9,9 @@ export default defineNuxtConfig({
       casing: 'snake_case',
     },
   },
+  typescript: {
+    typeCheck: true,
+  },
   nitro: {
     preset: 'cloudflare_module',
     cloudflare: {

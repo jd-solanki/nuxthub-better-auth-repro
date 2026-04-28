@@ -1,15 +1,12 @@
 import { schema } from '@nuxthub/db'
 import { defineServerAuth } from '@onmax/nuxt-better-auth/config'
-import { hashPassword, verifyPassword } from './utils/password'
+import { admin } from 'better-auth/plugins'
 
 export default defineServerAuth(({ db }) => ({
   emailAndPassword: {
     enabled: true,
-    password: {
-      hash: hashPassword,
-      verify: verifyPassword,
-    },
   },
+  plugins: [admin()],
   databaseHooks: {
     session: {
       create: {

@@ -13,7 +13,7 @@
     "@electric-sql/pglite": "^0.4.4",
     "@noble/hashes": "^1.8.0",
     "@nuxthub/core": "https://pkg.pr.new/@nuxthub/core@77505ad",
-    "@onmax/nuxt-better-auth": "https://pkg.pr.new/nuxt-modules/better-auth/@onmax/nuxt-better-auth@e49d956",
+    "@onmax/nuxt-better-auth": "https://pkg.pr.new/nuxt-modules/better-auth/@onmax/nuxt-better-auth@c2e31fe2f396e38ab2a0c7a053c82ab9d97bcaf7",
     "better-auth": "^1.6.4",
     "drizzle-kit": "^0.31.10",
     "drizzle-orm": "^0.45.1",
@@ -21,5 +21,9 @@
     "postgres": "^3.4.9",
     "vue": "^3.5.32",
     "vue-router": "^5.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "vue-tsc": "^3.2.7"
   }
 }

@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxthub/core', '@onmax/nuxt-better-auth'],
+  modules: ['@nuxthub/core', '@onmax/nuxt-better-auth', '@pinia/nuxt'],
   typescript: {
     typeCheck: true,
   },

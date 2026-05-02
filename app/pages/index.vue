@@ -1,14 +1,12 @@
 <script lang="ts" setup>
-const { user } = useUserSession()
-const isAdmin = computed(() => {
-    return user.value?.role === 'admin'
-})
+const userStore = useUserStore()
 </script>
 
 
 <template>
     <div>
         <p>index page</p>
-        <p v-if="isAdmin">You are an admin.</p>
+        <!-- <p v-if="userStore.isUserAdmin">You are an admin.</p> -->
+         <pre>{{ userStore.user }}</pre>
     </div>
 </template>

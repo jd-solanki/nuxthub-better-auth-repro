@@ -13,7 +13,7 @@
     "@electric-sql/pglite": "^0.4.4",
     "@noble/hashes": "^1.8.0",
     "@nuxthub/core": "https://pkg.pr.new/@nuxthub/core@77505ad",
-    "@onmax/nuxt-better-auth": "https://pkg.pr.new/nuxt-modules/better-auth/@onmax/nuxt-better-auth@60d269d253215c7f1ab74c7fb6fdacb206f632d5",
+    "@onmax/nuxt-better-auth": "https://pkg.pr.new/nuxt-modules/better-auth/@onmax/nuxt-better-auth@54c11bba0a5dc5db141ef0c6f24c00afd754dd24",
     "@pinia/nuxt": "0.11.3",
     "better-auth": "^1.6.4",
     "drizzle-kit": "^0.31.10",

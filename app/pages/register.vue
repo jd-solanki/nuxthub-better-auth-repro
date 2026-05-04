@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const { client: authClient, signUp } = useUserSession()
+const userStore = useUserStore()
 
 const formData = reactive({
     email: 'admin@mail.com',
@@ -7,7 +7,7 @@ const formData = reactive({
 })
 
 const onSubmit = async () => {
-    await signUp.email({
+    await userStore.signUp.email({
         ...formData,
         name: formData.email.split('@')[0] ?? 'unknown',
     })
